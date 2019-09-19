@@ -2,11 +2,25 @@
   <form action="#" method="POST" id="contact-form" class="contact-form">
     <div class="contact_form">
       <label class="form_label" for="nome">Nome:</label>
-      <input class="contact-form__field" name="nome" type="text" id="inputNome" title="Deixe seu nome" required />
+      <input
+        class="contact-form__field"
+        name="nome"
+        type="text"
+        id="inputNome"
+        title="Deixe seu nome"
+        required
+      />
     </div>
     <div class="contact-form__group contact-form__group--right-colum">
       <label class="contact-form__label" for="email">E-mail:</label>
-      <input class="contact-form__field" name="email" type="email" id="inputEmail" title="deixe seu email" required />
+      <input
+        class="contact-form__field"
+        name="email"
+        type="email"
+        id="inputEmail"
+        title="deixe seu email"
+        required
+      />
     </div>
     <div class="contact-form__group">
       <label class="contact-form__label" for="mensagem">Deixe sua mensagem:</label>
@@ -24,10 +38,6 @@
   </form>
 </template>
 <script>
-export default {
-  
-}
+export default {};
 </script>
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

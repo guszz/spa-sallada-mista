@@ -7,7 +7,7 @@
           <li>
             <span class="footer__link-list__item">
               <a href="//www.clickmoda.com.br/">
-                <img src="../img/logo_ckmoda.png" alt="Click Moda | Casual & Fitness"/>
+                <img src="../assets/img/logo_ckmoda.png" alt="Click Moda | Casual & Fitness" />
               </a>
             </span>
           </li>
@@ -39,17 +39,29 @@
         <h2 class="footer_title">Fiquem conectados!</h2>
         <ul class="social">
           <li>
-            <a target="_blank" class="footer__link-list__item" href="//www.facebook.com/Salladamista">
+            <a
+              target="_blank"
+              class="footer__link-list__item"
+              href="//www.facebook.com/Salladamista"
+            >
               <i class="fab fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a target="_blank" class="footer__link-list__item" href="//www.instagram.com/salladamista/">
+            <a
+              target="_blank"
+              class="footer__link-list__item"
+              href="//www.instagram.com/salladamista/"
+            >
               <i class="fab fa-instagram"></i>
             </a>
           </li>
           <li>
-            <a target="_blank" class="footer__link-list__item" href="://api.whatsapp.com/send?phone=5522999999999&text=sua%20mensagem">
+            <a
+              target="_blank"
+              class="footer__link-list__item"
+              href="://api.whatsapp.com/send?phone=5522999999999&text=sua%20mensagem"
+            >
               <i class="fab fa-whatsapp"></i>
             </a>
           </li>
@@ -58,10 +70,15 @@
     </div>
 
     <section class="bloco-2 text-center p-4">
-      © 2018 - Todos os direitos revervados - <a class="text-white" target="_blank" href="//www.linkedin.com/in/dilton-gon%C3%A7alves-neves-filho-47b84178/">Dilton G. Neves Filho</a>
+      © 2018 - Todos os direitos revervados -
+      <a
+        class="text-white"
+        target="_blank"
+        href="//www.linkedin.com/in/dilton-gon%C3%A7alves-neves-filho-47b84178/"
+      >Dilton G. Neves Filho</a>
     </section>
   </div>
 </template>
 <script>
-export default {}
+export default {};
 </script>
