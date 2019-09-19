@@ -1,25 +1,41 @@
 <template>
-  <div>
+  <div class="main">
     <Header />
-    <Content />
+    <keep-alive>
+      <component :is="pages" />
+    </keep-alive>
     <Footer />
     <Tools />
   </div>
 </template>
 
 <script>
+import barramento from "@/barramento";
 import Header from "./components/Header.vue";
 import Content from "./components/Content.vue";
+import About from "./components/About.vue";
 import Footer from "./components/Footer.vue";
 import Tools from "./components/Tools.vue";
 export default {
   components: {
     Header,
     Content,
+    About,
     Footer,
     Tools
+  },
+  data() {
+    return {
+      pages: "Content"
+    };
   }
 };
 </script>
 <style lang="scss">
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 </style>

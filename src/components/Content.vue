@@ -5,14 +5,10 @@
 </template>
 <script>
 import Carousel from "./Carousel.vue";
+import Contato from "./Contato.vue";
 export default {
   components: {
     Carousel
-  },
-  data() {
-    return {
-      pages: ""
-    };
   }
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="bloco-1 container">
+  <div class="main-footer">
+    <div class="footer-container">
       <div class="footer__colum">
         <h2 class="footer__title">Parceiros</h2>
         <ul class="Parceiros text-white">
@@ -82,3 +82,19 @@
 <script>
 export default {};
 </script>
+<style lang="scss" scoped>
+/* eslint-disable */
+.main-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+</style>
