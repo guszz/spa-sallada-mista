@@ -2,16 +2,16 @@
   <nav>
     <h2>Sallada Mista Desktop menu</h2>
     <li>
-      <a @click="pages = 'Content'">home</a>
+      <a @click="setSelectPage" href="Content">home</a>
     </li>
     <li>
-      <a @click="pages = 'Products'">produtos</a>
+      <a @click="setSelectPage" href="Poducts">produtos</a>
     </li>
     <li>
-      <a @click="pages = 'About'">quem somos</a>
+      <a @click="setSelectPage" href="About">quem somos</a>
     </li>
     <li>
-      <a @click="pages = 'Contato'">contato</a>
+      <a @click="setSelectPage" href="Contato">contato</a>
     </li>
   </nav>
 </template>
@@ -20,6 +20,12 @@ import barramento from "@/barramento";
 export default {
   props: {
     pages: String
+  },
+  methods:{
+    setSelectPage(event){
+      this.pages = this.event.value
+      barramento.setSelectPage(this.pages)
+    }
   }
 };
 </script>

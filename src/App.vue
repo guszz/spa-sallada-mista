@@ -28,6 +28,11 @@ export default {
     return {
       pages: "Content"
     };
+  },
+  created() {
+    barramento.onSelectPage(pages => {
+      this.pages = pages;
+    });
   }
 };
 </script>

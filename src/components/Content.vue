@@ -1,20 +1,17 @@
 <template>
   <main class="container">
     <Carousel />
+    <Services />
   </main>
 </template>
 <script>
 import Carousel from "./Carousel.vue";
+import Services from "./Services.vue";
 import Contato from "./Contato.vue";
 export default {
   components: {
-    Carousel
+    Carousel,
+    Services
   }
 };
 </script>
-<style lang="scss">
-.container {
-  width: 95%;
-  margin: 0 auto;
-}
-</style>

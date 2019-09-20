@@ -10,6 +10,7 @@ export default {
 </script>
 <style lang="scss">
 .go-top{
+  display: none;
   position: absolute;
   right: 2rem;
   bottom: 1rem;
