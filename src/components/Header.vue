@@ -25,6 +25,10 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 2rem 0;
+  img{
+    display: block;
+    width: 15%;
+  }
 }
 h1 {
   display: none;

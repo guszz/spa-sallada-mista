@@ -29,13 +29,15 @@ h2 {
   display: none;
 }
 nav {
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
   li {
-    width: 100%;
+    display: inline-block;
+    padding: 0 2rem;
     border-bottom: 4px solid transparent;
     transition: all 300ms ease-in-out;
     &:hover {
@@ -49,7 +51,7 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 1.25rem;
     font-weight: 700;
     cursor: pointer;

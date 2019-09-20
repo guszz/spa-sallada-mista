@@ -31,8 +31,11 @@ export default {
   }
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .main {
+  font-family: "Quicksand", sans-serif;
+  background-color: #130f40 !important;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

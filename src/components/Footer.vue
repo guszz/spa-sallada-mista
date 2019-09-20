@@ -1,100 +1,112 @@
 <template>
-  <div class="main-footer">
-    <div class="footer-container">
-      <div class="footer__colum">
-        <h2 class="footer__title">Parceiros</h2>
-        <ul class="Parceiros text-white">
-          <li>
-            <span class="footer__link-list__item">
-              <a href="//www.clickmoda.com.br/">
-                <img src="../assets/img/logo_ckmoda.png" alt="Click Moda | Casual & Fitness" />
-              </a>
-            </span>
-          </li>
-        </ul>
-      </div>
+<footer class="main-footer">
+  <b-container>
+    <b-row>
+      <b-col>
+        <h4 class="footer_title">Parceiros</h4>
+        <div class="partners">
+          <a href="//www.clickmoda.com.br/" target="_blank">
+            <img src="../assets/img/logo_ckmoda.png" alt="Click Moda | Casual & Fitness" />
+          </a>
+        </div>
+      </b-col>
 
-      <div class="footer_colum">
-        <h2 class="footer_title">Fale Conosco!</h2>
-        <ul class="text-white">
-          <li>
-            <span class="footer__link-list__item">
-              <i class="far fa-envelope fa-2x mt-2 mr-2"></i>contato@salladamista.com.br
-            </span>
-          </li>
-          <li>
-            <span class="footer__link-list__item">
-              <i class="fas fa-phone fa-2x mr-2"></i>(22)2521-5403
-            </span>
-          </li>
-          <li>
-            <span class="footer__link-list__item">
-              <i class="fas fa-home fa-2x mr-2"></i>Rua Vicente Sobrinho, 194 - Olaria, Nova Friburgo - RJ - CEP: 28623-440
-            </span>
-          </li>
-        </ul>
-      </div>
+      <b-col cols="5">
+        <h4 class="footer_title">Fale Conosco!</h4>
+        <div class="contato-item">
+          <i class="far fa-envelope"></i> <span>contato@salladamista.com.br</span>
+        </div>
+        <div class="contato-item">
+          <i class="fas fa-phone"></i><span> (22)2521-5403 </span>
+        </div>
+        <div class="contato-item">
+          <i class="fas fa-home"></i>Rua Vicente Sobrinho, 194 - Olaria, Nova Friburgo - RJ - CEP: 28623-440
+        </div>
+      </b-col>
 
-      <div class="footer_colum">
-        <h2 class="footer_title">Fiquem conectados!</h2>
-        <ul class="social">
-          <li>
-            <a
-              target="_blank"
-              class="footer__link-list__item"
-              href="//www.facebook.com/Salladamista"
-            >
+      <b-col>
+        <h4 class="footer_title">Fiquem conectados!</h4>
+        <div class="social_nav">
+          <span>
+            <a target="_blank" href="//www.facebook.com/Salladamista">
               <i class="fab fa-facebook"></i>
             </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              class="footer__link-list__item"
-              href="//www.instagram.com/salladamista/"
-            >
+          </span>
+          <span>
+            <a target="_blank" href="//www.instagram.com/salladamista/">
               <i class="fab fa-instagram"></i>
             </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              class="footer__link-list__item"
-              href="://api.whatsapp.com/send?phone=5522999999999&text=sua%20mensagem"
-            >
+          </span>
+          <span>
+            <a target="_blank" href="://api.whatsapp.com/send?phone=5522999999999&text=sua%20mensagem">
               <i class="fab fa-whatsapp"></i>
             </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+          </span>
+        </div>
+      </b-col>
+    </b-row>
 
-    <section class="bloco-2 text-center p-4">
-      © 2018 - Todos os direitos revervados -
-      <a
-        class="text-white"
-        target="_blank"
-        href="//www.linkedin.com/in/dilton-gon%C3%A7alves-neves-filho-47b84178/"
-      >Dilton G. Neves Filho</a>
-    </section>
+  </b-container>
+    
+  <div class="copyright text-center">
+    © 2018 - Todos os direitos revervados -
+    <a class="text-white" target="_blank" href="//www.linkedin.com/in/dilton-gon%C3%A7alves-neves-filho-47b84178/">Dilton G. Neves Filho</a>
   </div>
+</footer>
 </template>
 <script>
 export default {};
 </script>
-<style lang="scss" scoped>
-/* eslint-disable */
-.main-footer {
+<style lang="scss">
+.main-footer{
+  background-color: rgba(12, 16, 20,0.5);
   width: 100%;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+.footer_title{
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff
+}
+.contato-item{
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction:row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  i{
+    line-height: 2rem;
+    font-size: 2rem;
+    margin-right: 1.25rem;
+  }
+}
+.partners{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
-.footer-container {
+.social_nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  a{
+    color: #fff;
+    transition: all 300ms ease-in-out;
+    :hover{
+      color: #e91e63;
+    }
+  }
+  i{
+    padding: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
 }
-</style>
+.copyright{
+  background-color: #0c1014;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+</style>style

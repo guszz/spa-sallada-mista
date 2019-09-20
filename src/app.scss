@@ -1,17 +1,4 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "node_modules/bootstrap-vue/src/index.scss";
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap");
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  font-family: "Quicksand", sans-serif;
-}
-body {
-  background-color: #130f40;
-  color: #fff;
-}
+
