@@ -5,8 +5,8 @@
   </main>
 </template>
 <script>
-import Carousel from "./Carousel.vue";
-import Services from "./Services.vue";
+import Carousel from "../components/Carousel.vue";
+import Services from "../components//Services.vue";
 import Contato from "./Contato.vue";
 export default {
   components: {

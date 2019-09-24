@@ -2,32 +2,21 @@
   <nav>
     <h2>Sallada Mista Desktop menu</h2>
     <li>
-      <a @click="setSelectPage" href="Content">home</a>
+      <router-link to="/">home</router-link>
     </li>
     <li>
-      <a @click="setSelectPage" href="Poducts">produtos</a>
+      <router-link to="/produtos">produtos</router-link>
     </li>
     <li>
-      <a @click="setSelectPage" href="About">quem somos</a>
+      <router-link to="sobre">quem somos</router-link>
     </li>
     <li>
-      <a @click="setSelectPage" href="Contato">contato</a>
+      <router-link to="/contato">contato</router-link>
     </li>
   </nav>
 </template>
 <script>
-import barramento from "@/barramento";
-export default {
-  props: {
-    pages: String
-  },
-  methods:{
-    setSelectPage(event){
-      this.pages = this.event.value
-      barramento.setSelectPage(this.pages)
-    }
-  }
-};
+export default {};
 </script>
 <style lang="scss" scoped>
 /* eslint-disable */
@@ -35,31 +24,30 @@ h2 {
   display: none;
 }
 nav {
-  margin-bottom: 2rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  height: 100%;
+  width: 40%;
+  justify-content: flex-end;
   align-items: center;
   list-style: none;
   li {
-    display: inline-block;
-    padding: 0 2rem;
-    border-bottom: 4px solid transparent;
+    height: 100%;
+    padding: 0 .75rem;
+    border-bottom: 2px solid transparent;
     transition: all 300ms ease-in-out;
     &:hover {
-      border-bottom: 4px solid #e91e63;
+      border-bottom: 2px solid #e91e63;
     }
   }
   a {
     display: block;
     width: 100%;
     color: #fff;
+    font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1rem;
-    padding: 1.25rem;
-    font-weight: 700;
+    font-size: 0.75rem;
     cursor: pointer;
     transition: all 300ms ease-in-out;
     &:hover {

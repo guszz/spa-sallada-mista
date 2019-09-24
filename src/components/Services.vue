@@ -39,7 +39,7 @@ export default {};
     display: block;
     width: 80%;
     height: 1px;
-    background: #fff;
+    background: #2b2b2b;
   }
   &::after{
     content: "";
@@ -50,7 +50,7 @@ export default {};
   }
   span{
     padding: 0 1rem;
-    background: #130f40 !important;
+    background: #eeeeee !important;
     text-transform: uppercase;
     font-size: 1.7rem;
     z-index: 99;

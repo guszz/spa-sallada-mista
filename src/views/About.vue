@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about container">
     <h2>Sobre a Sallada Mista</h2>
     <p>
       Localizada em Nova Friburgo - RJ, também conhecida como "Capital da Moda Íntima do Brasil", trabalhamos para criar produtos de alta qualidade e com preço que cabe no seu bolso.
@@ -14,4 +14,9 @@
 export default {};
 </script>
 <style lang="scss">
+.about{
+  @media (min-width: 768px) {
+    min-height: 370px;
+  }
+}
 </style>

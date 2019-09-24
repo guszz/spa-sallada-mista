@@ -59,13 +59,14 @@ export default {};
 </script>
 <style lang="scss">
 .main-footer{
-  background-color: rgba(12, 16, 20,0.5);
+  background-color: #130f40;
   width: 100%;
   padding-top: 1rem;
   margin-top: 2rem;
 }
 .footer_title{
   padding-bottom: 1rem;
+  color: #fff;
   border-bottom: 1px solid #fff
 }
 .contato-item{
@@ -74,6 +75,7 @@ export default {};
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 1.25rem;
+  color: #fff;
   i{
     line-height: 2rem;
     font-size: 2rem;
@@ -106,6 +108,7 @@ export default {};
 }
 .copyright{
   background-color: #0c1014;
+  color: #fff;
   padding: 1rem 0;
   margin-top: 1rem;
 }
