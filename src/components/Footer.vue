@@ -2,16 +2,16 @@
 <footer class="main-footer">
   <b-container>
     <b-row>
-      <b-col>
+      <div class="col col-md-4">
         <h4 class="footer_title">Parceiros</h4>
         <div class="partners">
           <a href="//www.clickmoda.com.br/" target="_blank">
             <img src="../assets/img/logo_ckmoda.png" alt="Click Moda | Casual & Fitness" />
           </a>
         </div>
-      </b-col>
+      </div>
 
-      <b-col cols="5">
+      <div class="col col-md-4">
         <h4 class="footer_title">Fale Conosco!</h4>
         <div class="contato-item">
           <i class="far fa-envelope"></i> <span>contato@salladamista.com.br</span>
@@ -22,9 +22,9 @@
         <div class="contato-item">
           <i class="fas fa-home"></i>Rua Vicente Sobrinho, 194 - Olaria, Nova Friburgo - RJ - CEP: 28623-440
         </div>
-      </b-col>
+      </div>
 
-      <b-col>
+      <div class="col col-md-4">
         <h4 class="footer_title">Fiquem conectados!</h4>
         <div class="social_nav">
           <span>
@@ -43,15 +43,17 @@
             </a>
           </span>
         </div>
-      </b-col>
+      </div>
     </b-row>
 
   </b-container>
-    
   <div class="copyright text-center">
-    © 2018 - Todos os direitos revervados -
-    <a class="text-white" target="_blank" href="//www.linkedin.com/in/dilton-gon%C3%A7alves-neves-filho-47b84178/">Dilton G. Neves Filho</a>
+    <div class="container">
+      © 2018 - Todos os direitos revervados -
+      <a class="text-white" target="_blank" href="//www.linkedin.com/in/dilton-gon%C3%A7alves-neves-filho-47b84178/">Dilton G. Neves Filho</a>
+    </div>
   </div>
+    
 </footer>
 </template>
 <script>

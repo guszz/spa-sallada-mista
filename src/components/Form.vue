@@ -1,43 +1,27 @@
 <template>
-  <form action="#" method="POST" id="contact-form" class="contact-form">
-    <div class="contact_form">
-      <label class="form_label" for="nome">Nome:</label>
-      <input
-        class="contact-form__field"
-        name="nome"
-        type="text"
-        id="inputNome"
-        title="Deixe seu nome"
-        required
-      />
-    </div>
-    <div class="contact-form__group contact-form__group--right-colum">
-      <label class="contact-form__label" for="email">E-mail:</label>
-      <input
-        class="contact-form__field"
-        name="email"
-        type="email"
-        id="inputEmail"
-        title="deixe seu email"
-        required
-      />
-    </div>
-    <div class="contact-form__group">
-      <label class="contact-form__label" for="mensagem">Deixe sua mensagem:</label>
-      <textarea
-        class="contact-form__field"
-        name="mensagem"
-        id="inputMessagem"
-        title="Deixe sua mensagem!"
-        cols="20"
-        rows="10"
-        required
-      ></textarea>
-    </div>
-    <input type="submit" class="contact-form_btn" value="Enviar" />
-  </form>
+  <section class="contact-form">
+    <form action="#" method="POST" id="contact-form" class="form-group">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-2">
+          <input class="form-control" name="nome" type="text" id="inputNome" placeholder="Nome:" title="Deixe seu nome" required/>
+        </div>
+        <div class="col-12 col-md-6 mb-2">
+          <input class="form-control" name="email" type="email" id="inputEmail" placeholder="e-mail:" title="deixe seu email" required/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <textarea class="form-control" name="mensagem" id="inputMessagem" placeholder="Deixe uma mensagem!" rows="10" title="Deixe sua mensagem!"  required></textarea>
+        </div>
+        <div class="col-12 mt-2">
+          <input type="submit" class="btn btn-outline-success float-right" value="Enviar" />
+        </div>
+      </div>
+    </form>
+  </section>
 </template>
 <script>
 export default {};
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+</style>

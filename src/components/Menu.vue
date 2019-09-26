@@ -26,13 +26,14 @@ h2 {
 nav {
   display: flex;
   height: 100%;
-  width: 40%;
+  width: 80%;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
   li {
     height: 100%;
-    padding: 0 .75rem;
+    padding: 0.5rem 0.25rem;
+    margin: 0 1.25rem;
     border-bottom: 2px solid transparent;
     transition: all 300ms ease-in-out;
     &:hover {
