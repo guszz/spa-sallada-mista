@@ -8,14 +8,17 @@
         </router-link>
       </div>
       <Menu />
+      <MenuMobile />
     </div>
   </header>
 </template>
 <script>
 import Menu from "./Menu.vue";
+import MenuMobile from "./MenuMobile.vue";
 export default {
   components: {
-    Menu
+    Menu,
+    MenuMobile
   }
 };
 </script>
@@ -28,7 +31,7 @@ export default {
   margin-bottom: 1rem;
   background-color: #130f40;
   z-index: 999;
-  .container{
+  .container {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -36,14 +39,17 @@ export default {
   }
 }
 .main-logo {
-  width: 15%;
+  width: 35%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  img{
+  img {
     display: block;
     width: 100%;
+  }
+  @media (min-width: 768px) {
+    width: 15%;
   }
 }
 h1 {

@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="d-none d-md-flex">
     <h2>Sallada Mista Desktop menu</h2>
     <li>
       <router-link to="/">home</router-link>
