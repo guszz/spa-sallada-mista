@@ -44,6 +44,7 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  z-index: 99;
   img {
     display: block;
     width: 100%;

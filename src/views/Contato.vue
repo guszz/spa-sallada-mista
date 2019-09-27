@@ -1,7 +1,7 @@
 <template>
   <section class=" container contato">
     <h1>Contato</h1>
-    <p>Quer ser Revendedor(a) Sallada Mista? Entre em contato através do formulário abaixo ou pelos contatos no rodapé!</p>
+    <p>Quer ser um Parceiro Sallada Mista? Entre em contato através do formulário abaixo ou pelos indicados contatos no rodapé!</p>
     <Form />
   </section>
 </template>

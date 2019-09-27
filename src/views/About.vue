@@ -8,8 +8,8 @@
           A Sallada Mista foca no conceito "Fashion & Fitness", onde além de trazer conforto e segurança no treino, também conta com a beleza e sofisticação que só os nossos produtos podem entregar.
         </p>
         <p class="card-text">Nossa Missão é oferecer um produto diferenciado através de um Design exclusivo, qualidade e inovação tecnológica. Seja para quem ama malhar ou simplismente quer ficar linda na correria do dia-a-dia!</p>
-        <p class="card-text">Somos uma empresa com anos de experiência no mercado e contamos com profissionais que amam o que fazem para trazer o melhor para você parceiro(a) Sallada Mista ou para seu/sua cliente.</p>
-        <p class="card-text">Não perca essa oportunidade e entre em contato! Nosso prazer é a sua satisfação.</p>
+        <p class="card-text">Somos uma empresa com anos de experiência no mercado e contamos com profissionais que amam o que fazem para trazer o melhor para você parceiro(a) Sallada Mista.</p>
+        <p class="card-text">Não perca essa oportunidade, seja agora um parceiro Sallada Mista! Nosso prazer é a sua satisfação.</p>
       </div>
     </div>
   </section>
